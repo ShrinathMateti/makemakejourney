@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const images = [
-  "banner1.webp",
   "banner2.jpeg",
+  "banner1.jpeg",
   "banner3.jpg",
 ];
 
