@@ -17,11 +17,12 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md fixed w-full top-0 z-50">
       <div className="max-w-screen-xl flex items-center justify-between mx-auto px-5 py-4">
-        
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
-          <FaPlane className="text-2xl text-slate-800" />
-          <span className="text-xl font-bold text-slate-800">Make My Journey</span>
+          <FaPlane className="text-3xl md:text-4xl text-slate-800" />
+          <span className="text-2xl md:text-3xl font-bold text-slate-800">
+            Make My Journey
+          </span>
         </a>
 
         {/* Mobile Toggle Button */}
@@ -34,9 +35,7 @@ const Navbar = () => {
 
         {/* Nav Links */}
         <div
-          className={`${
-            isOpen ? "block" : "hidden"
-          } w-full md:block md:w-auto`}
+          className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`}
         >
           <ul className="flex flex-col md:flex-row md:space-x-8 p-5 md:p-0 bg-white md:bg-transparent">
             {navLinks.map((link, idx) => (
