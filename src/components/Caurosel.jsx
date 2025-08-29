@@ -3,7 +3,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const images = [
   "banner2.jpeg",
-  "banner1.jpeg",
+  "banner1.webp",
   "banner3.jpg",
 ];
 
